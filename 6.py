@@ -41,10 +41,13 @@ mediana = median(numeros_aleatorios)
 #(la media es el promedio de los valores de la lista)
 media = mean(numeros_aleatorios)
 
-
+#Sesgo positivo o a la derecha: cuando la media es mayor que la mediana y, a su vez, la 
+#mediana es mayor que la moda.
 if media > mediana and mediana > moda:
     print("sesgo positivo")
-
+    
+#Sesgo negativo o a la izquierda: cuando la media es menor que la mediana y, a su vez, 
+#la mediana es menor que la moda.
 elif media < mediana and mediana < moda:
     print("sesgo negativo")
 
